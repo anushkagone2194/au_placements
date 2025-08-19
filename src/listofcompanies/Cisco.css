@@ -1,0 +1,63 @@
+/* Main container */
+.cisco-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f9fafc;
+  border-radius: 16px;
+}
+
+/* Title */
+.cisco-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #005073;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Card style */
+.cisco-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.cisco-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Info section */
+.cisco-info {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Selection process section */
+.cisco-process h2 {
+  color: #005073;
+  margin-bottom: 15px;
+}
+
+.cisco-process ol {
+  padding-left: 20px;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #444;
+}
+
+.cisco-process li {
+  margin-bottom: 15px;
+}
+
+/* Highlight round names */
+.round {
+  font-weight: bold;
+  color: #0077b6;
+}

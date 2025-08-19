@@ -1,0 +1,58 @@
+.epam-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9fafc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.epam-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #004d99;
+  margin-bottom: 25px;
+}
+
+.epam-card {
+  background: #ffffff;
+  border-left: 5px solid #0073e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.epam-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.epam-info p {
+  font-size: 1.05rem;
+  margin: 6px 0;
+}
+
+.epam-process h2 {
+  font-size: 1.4rem;
+  color: #0059b3;
+  margin-bottom: 12px;
+}
+
+.epam-process ol {
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.epam-process li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.round {
+  font-weight: 600;
+  color: #003366;
+}

@@ -1,0 +1,48 @@
+.companies-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Grid layout for 3 cards per row */
+.company-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.company-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.company-card:hover {
+  background: #007bff;
+  color: white;
+  transform: translateY(-5px);
+}

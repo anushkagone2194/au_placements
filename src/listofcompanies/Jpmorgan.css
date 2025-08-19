@@ -1,0 +1,56 @@
+.jpmc-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #f4f7fb;
+  min-height: 100vh;
+}
+
+.jpmc-card {
+  width: 80%;
+  max-width: 900px;
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.jpmc-header {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #0a3d62;
+  font-weight: bold;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+}
+
+.jpmc-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9fcff;
+  border-left: 6px solid #0a3d62;
+}
+
+.jpmc-section h2 {
+  margin-bottom: 12px;
+  color: #0a3d62;
+}
+
+.jpmc-section p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #060606;
+}
+
+.process-list {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #444;
+}
